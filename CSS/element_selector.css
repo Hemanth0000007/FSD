@@ -1,0 +1,14 @@
+p{
+	color: red;
+	font-size: 30px;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+*{
+	color: green;
+	font-family: cursive;
+	font-size: 40px;
+}
