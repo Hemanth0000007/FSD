@@ -7,23 +7,98 @@
 </head>
 <body>
 	<script type="text/javascript">
+
 	// functionkeyword functionname(arg1,arg2,....argn)
 	// {
 	// 	statements
 	// 	return statement
 	// }
 	// normalfunction with no parameters
-	function test(){
-		alert("testing")
-		//document.write('js function')
-	}
-	test()//calling the function
+
+
+	// function test(){
+	// 	alert("testing")
+	// 	//document.write('js function')
+	// }
+	// test()//calling the function
+
+
 	//function with one parameter
-	var a = prompt("scan your id here");
-	function scanyourid(rollno){
-		document.write(rollno)
+	// var a = prompt("scan your id here");
+	// function scanyourid(rollno){
+	// 	document.write(rollno)
+	// }
+	// scanyourid(a)
+
+	//sum
+	// function sum(a,b){
+	// 	document.write(a+b)
+	// }
+	// sum(10,20)
+
+	// function sum(a=0,b){
+	// 	document.write(a+b)
+	// }
+	// sum(20)
+
+	// function sum(a=0,b=0){
+	// 	document.write(a+b)
+	// }
+	// sum()
+
+
+	//anonymous function is a function without having function name
+	// var x = function mul(a,b){
+	// 	return a*b
+	// }
+	// document.write(x(2,5))
+
+	// var x = function mul(a){
+	// 	return a*a*a
+	// }
+	// document.write(x(10))
+
+
+	//es6 arrow function "=>"
+	//never use function keyword
+	//arrow function with 2 arugments
+
+	// add = (a,b) => {
+	// 	document.write(a+b)
+	// }
+	// add(10,20)
+	// document.write("<br>")
+
+	// //arrow function with one arugment
+	// getname = a =>{
+	// 	document.write(a)
+	// }
+	// getname('hemanth')
+
+	// //arrow function with no arugment
+	// //test = _ =>{ (or)
+	// test = () =>{
+	// 	document.write("hemanth")
+	// }
+	//test()
+
+
+	setTimeout(test,2000)
+	function test(){
+		document.write('enables after 2 sec')
 	}
-	scanyourid(a)
+
 </script>
 </body>
 </html>
+
+<!-- Today topics are
+Functions
+    function with no argument
+    function with one argument
+    function with two argument
+    arrow function
+    anonymous function
+    callback function ex: setTimeout function -->
+
+
