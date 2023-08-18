@@ -1,0 +1,15 @@
+.a{
+	float: left;
+	size: 20px;
+	padding: 1px;
+}
+
+.a1{
+	float: left;
+	size: 1px;
+	padding: 1px;
+}
+#a2{
+	float: right;
+	size: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pos</title>
+	<style type="text/css">
+		.a{
+			height: 300px;
+			width: 300px;
+			background: gray;
+			float: left;
+			position: static;
+			top: 50px;
+			left: 10px;
+		}
+		.b{
+			height: 300px;
+			width: 300px;
+			background: violet;
+			float: left;
+			position: relative;
+			top: 50px;
+			right: 10px;
+		}
+		.c{
+			height: 150px;
+			width: 150px;
+			background: pink;
+			float: left;
+			position: absolute;
+			top: 50px;
+			left: 20px;
+		}
+		.c1{
+			height: 600px;
+			width: 300px;
+			border: 5px solid red;
+			float: left;
+			position: relative;
+		}
+		.d{
+			height: 300px;
+			width: 300px;
+			background: skyblue;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">static</div>
+	<div class="b">relative</div>
+	<div class="c1"><div class="c">absolute</div></div>
+	
+	<div class="d">fixed</div>
+</body>
+</html>

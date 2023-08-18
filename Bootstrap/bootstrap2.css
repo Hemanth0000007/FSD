@@ -1,0 +1,30 @@
+#a1{
+	height: 200px;
+	background: skyblue;
+	background-image: url("../HTML/Images/t.png");
+
+}
+#a2{
+	height: 100px;
+	background: blue;
+}
+#a3{
+	height: 100px;
+	background: pink;
+}
+#a4{
+	height: 50px;
+	background: red;
+}
+#a5{
+	height: 50px;
+	background: blue;
+}
+#a6{
+	height: 25px;
+	background: green;
+}
+#a7{
+	height: 75px;
+	background: orange;
+}

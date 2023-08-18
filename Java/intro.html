@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Java</title>
+	<link rel="icon"  href="../HTML/images/t.png">
+</head>
+<body>
+<h1>Javascript Intro</h1>
+<script type="text/javascript" src="intro.js"></script>
+<br>
+<script>
+	var a = 10;
+	var b = 20;
+	var c = 30;
+	alert(a);
+	console.log(b);
+	document.write(c,'<br><br>')
+    
+	document.write("Welcome To Javascript</br>");
+	document.write("the a value is:",a,'<br><br>');
+
+	var name = 'Hemanth';
+	document.write(name.length+"<br>");
+	name += '  abhi';
+	document.write(name+"<br>");
+	document.write(name.length+"<br><br>");
+
+	var name = 'Hemanth';
+	name += ' abhi';
+	name += ',sai'
+	document.write(name,'<br><br>');
+
+	var a = 10;
+	document.write(typeof(a)+'<br>');
+	var a = 'sim';
+	document.write(typeof(a),'<br><br>');
+
+	var ch;
+	document.write(ch);
+    ch = " sim";
+	document.write(ch,'<br><br>');
+
+	var arr =['hemanth',1,true,1.54];
+	document.write(typeof(arr),'<br>');
+	document.write(arr,'<br><br>');
+
+	var arr =['hemanth','sai','thri'];
+	console.log(arr)
+	document.write(arr[1]+'  ')
+	document.write(arr[2],'<br><br>');
+
+	// object
+	var obj = {
+		'name':'hari',
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'ECE',
+	}
+	console.log(obj['name'],obj['rollno'],obj['college'],obj['branch']);
+	console.log(obj.name,obj.rollno,obj.college,obj.branch,);
+
+
+	var trainee = {
+		'name':'hari',
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'ECE',
+	}
+	console.log(trainee.name);
+	console.log(trainee.rollno);
+
+
+	var trainees = [{
+		'name':'hari',
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'ECE',
+	},
+	{
+		'name':'kiran',
+		'rollno':5555,
+		'college':'AECT',
+		'branch':'CSE',
+	}]
+	console.log(trainees);
+	console.log(trainees[0].name);
+	console.log(trainees[1].name);
+
+
+	var trainees1 = [{
+		'name':'hari',
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'ECE',
+	},
+	{
+		'name':'kiran',
+		'rollno':5555,
+		'college':'AECT',
+		'branch':'CSE',
+	}];
+	for (var i = 0; i < trainees1.length;i++){
+		console.log(i+1,trainees1[i].name, trainees1[i].rollno,trainees1[i].college,trainees1[i].branch);
+		document.write(i+1, trainees1[i].name,'<br>', trainees1[i].rollno, trainees1[i].college, trainees1[i].branch);
+		document.write("<br>");
+	}
+
+	var trainees2 = [{
+		'name':'hari',
+		'rollno':1234,
+		'college':'AEC',
+		'branch':'ECE',
+	},
+	{
+		'name':'kiran',
+		'rollno':5555,
+		'college':'AECT',
+		'branch':'CSE',
+	}];
+	for (var i=0;i<trainees2.length;i++){
+      for (var key in trainees2[i]){
+        document.write(trainees2[i][key]+" ")
+      }
+      document.write("<br>");
+    }
+</script>
+</body>
+<!-- <script type="text/javascript" src="intro.js"></script> -->
+</html>

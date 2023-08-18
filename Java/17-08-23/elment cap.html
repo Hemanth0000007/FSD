@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dom</title>
+</head>
+<body>
+	<p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">BS</p>
+	<p class="topic">JS</p>
+	<ol>
+		<li>AEC</li>
+		<li>AECT</li>
+		<li>ACOE</li>
+	</ol>
+	<table border="1">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+<script type="text/javascript">
+	let p = document.getElementsByClassName('topic')
+	p[0].innerHTML ='hyper text markup language'
+	p[0].style.color = 'green'
+	p[2].innerHTML ='bootstrap'
+	p[2].style.color = "red"
+
+	let lis = document.getElementsByTagName('li')
+	console.log(lis)
+	lis[0].innerText = 'Aditya Engineering College'
+
+	let tab = document.getElementsByTagName('td')
+	// tab[0].innerHTML = '1'
+	// tab[1].innerHTML = '2'
+	// tab[2].innerHTML = '3'
+	// tab[3].innerHTML = '4'
+	// tab[4].innerHTML = '5'
+	// tab[5].innerHTML = '6'
+	// tab[6].innerHTML = '7'
+	// tab[7].innerHTML = '8'
+	// tab[8].innerHTML = '9'
+	for (var i = 0; i < tab.length; i++){
+		tab[i].innerHTML = 9-i
+	}
+</script>
+</html>

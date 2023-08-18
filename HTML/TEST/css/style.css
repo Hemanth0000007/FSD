@@ -1,0 +1,60 @@
+div{
+	height: 500px;
+	width: 800px;
+	background: whitesmoke;
+	padding: 30px;
+}
+button{
+	/*display: block;
+	margin: 20px;
+	text-align: justify;*/
+	padding: 6px;
+	background: blue;
+	color: white;
+	border-radius: 20px;
+}
+}
+h4{
+	font-size: 30px;
+}
+p{
+	font-size: 10px;
+}
+.one{
+border: 2px solid black;
+height: 350px;
+width: 225px;
+font-size: 20px;
+border-radius: 50px;
+padding: 5px;
+float: left;
+margin: 10px;
+background: white;
+}
+.two{
+border: 2px solid black;
+height: 350px;
+width: 225px;
+font-size: 20px;
+border-radius: 50px;
+padding: 5px;
+float: left;
+margin: 10px;
+background: white;
+}
+.three{
+border: 2px solid black;
+height: 350px;
+width: 225px;
+font-size: 20px;
+border-radius: 50px;
+padding: 5px;
+float: left;
+margin: 10px;
+background: white;
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
